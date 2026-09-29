@@ -27,6 +27,7 @@ class TestCalculateTriangle(unittest.TestCase):
         self.assertEqual(len(coordinates), 3)
 
     # 4. Проверяем треугольник, который не существует
+    
     def test_returns_not_triangle_when_triangle_inequality_is_violated(self):
         triangle_type, coordinates = calculate_triangle("1", "2", "5")
 
